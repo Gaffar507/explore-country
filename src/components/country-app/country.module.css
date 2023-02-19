@@ -1,0 +1,38 @@
+.card {
+  height: 22rem;
+  width: 17rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(93, 96, 96);
+  padding: 0.5rem;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.65),
+    1px 0px 2px rgba(255, 255, 255, 0.75);
+}
+.card:hover {
+  scale: 1.05;
+}
+.image {
+  width: 16rem;
+  height: 8rem;
+  background: fixed;
+  padding: none;
+  margin: 1rem 0;
+}
+.btn {
+  color: aliceblue;
+  background-color: crimson;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.1rem;
+}
+.btn:hover {
+  cursor: pointer;
+  color: rgb(255, 238, 0);
+}
+span a {
+  color: rgb(0, 13, 255);
+  background-color: rgba(240, 248, 255, 0.341);
+  border-radius: 0.2rem;
+}

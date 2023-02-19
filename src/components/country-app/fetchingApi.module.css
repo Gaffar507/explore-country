@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-weight: 400;
+}
+.container {
+  background-color: black;
+  color: aliceblue;
+}
