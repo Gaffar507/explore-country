@@ -4,7 +4,6 @@ import style from "./country.module.css";
 
 export default function Country(props) {
   const { area, name, capital, population, continents, flags, maps } = props;
-
   const removeCountry = (name) => {
     props.getName(name);
   };
